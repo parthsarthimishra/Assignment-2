@@ -39,6 +39,9 @@ z-index: 1000;
     margin-bottom:1vh; !important
     font-family: "TypoPRO Bebas Neue";
 }
+.nav-elements :hover {
+    color:rgba(0,0,0,0.5);
+}
 a {
     text-decoration: none;
     color: black;
@@ -249,7 +252,7 @@ height:100vh;
 }
 .above-view-more {
     display: flex;  
-    justify-content: center;  !important
+    justify-content:center;  !important
     margin-bottom:1vh;
     margin-top:18px;
 }
@@ -260,6 +263,7 @@ height:100vh;
     line-break: none;
     font-family: 'TypoPRO Bebas Neue';
     margin-top: 22px;
+   
 }
 
 
@@ -382,7 +386,7 @@ background-color:#ebebeb;
 .right-footer {
 margin-top:20px;
 color:white;
-width:50%;
+width:40vw;
 font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
     font-size: 14px;
 
@@ -573,7 +577,7 @@ color:rgb(248,209,108);
 
 margin-left:1vh;
 margin-top:5vh;
-margin-bottom: 1px;
+margin-bottom: 8px;
 font-size: 10vh;
 
 
@@ -679,7 +683,25 @@ height:100vh;
         margin:10px;
         margin-bottom:50px;
     }
-
+    .right-footer {
+        margin-top:20px;
+        color:white;
+        width:80vw;
+        font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+            font-size: 14px;
+        
+        }
+        .view-more {
+            width:150px;
+           font-size:1px;
+            margin-bottom:2vh;
+            line-break: none;
+            font-family: 'TypoPRO Bebas Neue';
+            margin-top: 22px;
+           
+        }
+        
+}
     /* footer from here
     .footer-mid {
         margin-left: 8vw;
