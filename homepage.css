@@ -6,7 +6,12 @@ background-color: burlywood;
 display:flex;
 z-index: 1000;
 }
-
+.hamburger{
+    display: none;
+    height:6vh;
+    width:7vh;
+    margin-top: 1vh; !important
+}
 #img-logo {
     height:6vh;
     width:7vh;
@@ -30,8 +35,9 @@ z-index: 1000;
 .nav-elements {
     margin:1vw;
     text-decoration: none;
-    margin-top:2vh;
+    margin-top:3vh;
     margin-bottom:1vh; !important
+    font-family: "TypoPRO Bebas Neue";
 }
 a {
     text-decoration: none;
@@ -114,6 +120,7 @@ font-size: 10vh;
     margin-top:0px;
     position: relative;
     top:-11vh;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
 
 #right-div {
@@ -135,6 +142,7 @@ height:100vh;
 .projects {
     background-color: white;
     height: 50vh;
+    margin-bottom:50px;
    
 }
 
@@ -144,12 +152,13 @@ height:100vh;
 }
 .project-heading {
     border-bottom: 5px solid rgb(248,209,108);
-    
+    margin-top: 8px;
     width: 140px;
     position:relative;
    text-align:center;
     font-size: 40px;
     padding:4px;
+    font-family: 'Playfair Display';
     
 }
 
@@ -158,6 +167,7 @@ height:100vh;
 .project-image {
     display:flex;
     justify-content: center;
+    
 }
 #project-image {
     width: 300px; !important
@@ -173,11 +183,7 @@ height:100vh;
     margin-bottom: 0;
 }
 
-.four-projects-heading {
-    font-size:20px;
-    font-weight: bold;
 
-}
 
 .anurag {
    position: relative;
@@ -192,56 +198,79 @@ height:100vh;
     font-size: 200px;
     font-family: 'TypoPRO Bebas Neue';
     user-select: none;
+   
+    font-family: 'TypoPRO Bebas Neue';
 }
 #one {
  
  text-align: right; 
   width:250px;
   margin:10px;
+  color: #999999;
+    font-size: 14px;
+    font-style: italic;
 }
 #two {
  
     text-align: right;  
     width:250px;
     margin:10px;
+    color: #999999;
+    font-size: 14px;
+    font-style: italic;
    }
 #three {
  
     text-align: right;
     width:250px;
     margin:10px;
+    color: #999999;
+    font-size: 14px;
+    font-style: italic;
    }
 #four {
  
     text-align: right; 
     width:250px;
     margin:10px;
+    color: #999999;
+    font-size: 14px;
+    font-style: italic;
 }
-
-.view-more {
-    width:11vw;
-    position:relative;
-    left:44vw;
-    margin-bottom:1vh;
-    line-break: none;
-}
-
-sfgbutton {
-    width:11vw;
-    height: 8vh;
-    border-color: black;
-    border-width: 2px;
-    background-color: white;
+.four-projects-heading {
     font-size:20px;
+    font-weight: bold;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    color:black;
+    font-style: normal;
+    
+
 }
+.above-view-more {
+    display: flex;  
+    justify-content: center;  !important
+    margin-bottom:1vh;
+    margin-top:18px;
+}
+.view-more {
+    width:150px;
+   font-size:1px;
+    margin-bottom:2vh;
+    line-break: none;
+    font-family: 'TypoPRO Bebas Neue';
+    margin-top: 22px;
+}
+
+
 
 button {
     background-color: transparent;
     text-transform: uppercase;
-    display: inline-block;
-    padding: 0.5em 1em;
+    
+    padding:  1em;
     font-family: 'TypoPRO Bebas Neue';
-    font-size: 18px;
+    font-size: 14px;
     border: 2px solid #263146;
     color: #263146;
     transition: background-color 0.3s;
@@ -252,13 +281,14 @@ button {
     
 text-align:center;
 background-color:#ebebeb; 
+
  
 }
 
 .for-test {
     display:flex;  !important
  justify-content: center;
- align-items: center;
+ 
  background-color: #ebebeb; ; 
 }
 .heading {
@@ -272,6 +302,8 @@ background-color:#ebebeb;
     padding-bottom: 0.3em;
     margin: auto;
     margin-top:18px;
+    font-size: 32px;
+    font-family: 'Playfair Display';
     
    
     
@@ -310,13 +342,14 @@ background-color:#ebebeb;
     display: inline-block;
     padding: 0.5em 1em;
     font-family: 'TypoPRO Bebas Neue';
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     border: 2px solid #263146;
     color: #263146;
     transition: background-color 0.3s;
     cursor: pointer;
     margin:auto;
     margin-bottom:15px;
+    font-family: 'TypoPRO Bebas Neue';
    
 }
 .read-button :hover{
@@ -336,7 +369,7 @@ background-color:#ebebeb;
     display:flex;
   
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
    
     color:white;
 
@@ -347,14 +380,21 @@ background-color:#ebebeb;
 }
 
 .right-footer {
-margin-top:30px;
+margin-top:20px;
 color:white;
 width:50%;
+font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 14px;
+
+}
+.left-footer{
+    margin-top: 25px;
 }
 
 .left-footer {
     color:white;
     margin-top:30px;
+    
 }
 
 #about {
@@ -363,11 +403,13 @@ width:50%;
     font-family: "TypoPRO Bebas Neue";
     color: #fff;
     padding-top: 28px;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 25px;
 }
 
 
 .footer-end {
-    background-color: #040f1b ; !important
+    background-color: #263146;; !important
     
     margin-top:16px;
 }
@@ -376,15 +418,32 @@ width:50%;
     color:white;
     margin-top:16px;
     padding:4px;
-    background-color:#040f1b;
+    background-color:#263146;;
 }
-
+#contact-us {
+    font-size: 20px;
+    font-weight: bold;
+}
+.below-contact {
+    font-size: 15px;
+    font-weight: normal;
+}
+.yellow {
+    color: yellow;
+}
 
 /*MEDIA QUERIES FROM HERE*/
 
 
 
 @media all and (max-width:1000px){
+
+    .projects {
+        background-color: white;
+        height: 50vh;
+        margin-bottom:100px;
+       
+    }
     .four-projects {
         display:flex;
         flex-wrap:wrap;
@@ -448,10 +507,36 @@ width:50%;
 }
 
 @media all and (max-width:680px){
-/* UPPER DIVS HERE*/
+    
+    
+        .hamburger {
+            background-color: white;
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            width:50vw;
+            font-size: 33px;
+           text-align: right;
+           padding-right: 8vw;
+           padding-top: 5px;;
+        }
+        .right-nav{
+            display: none;
+            
+            
+        }
+        .navbar {
+            background-color: white;
+            width:100vw;
+        }
+
+
+    /* UPPER DIVS HERE*/
 
 .container {
-    display: flex;
+    display: inline-block;
  
     
 }
@@ -516,6 +601,7 @@ font-size: 10vh;
     margin-top:0px;
     position: relative;
     top:-11vh;
+    padding-top: 11px;
 }
 
 #right-div {
@@ -594,7 +680,7 @@ height:100vh;
         margin-bottom:50px;
     }
 
-    /* footer from here*/
+    /* footer from here
     .footer-mid {
         margin-left: 8vw;
         margin-right: 8vw;
@@ -644,4 +730,4 @@ height:100vh;
         background-color:#040f1b;
     }
     
-}
+}*/
