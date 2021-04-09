@@ -1,0 +1,638 @@
+.navbar {
+position:sticky;
+top:0px;
+height: 10vh;
+background-color: burlywood;
+display:flex;
+z-index: 1000;
+}
+
+#img-logo {
+    height:6vh;
+    width:7vh;
+    margin-left:8vw;
+    margin-top: 1vh; !important
+}
+.right-nav {
+    display: flex;
+   
+    width:50vw;   
+    justify-content: flex-end;  
+    background-color: white;
+    
+}
+.left-nav{
+    width:50vw; !important
+    left:0px;
+    background-color: white;
+}
+
+.nav-elements {
+    margin:1vw;
+    text-decoration: none;
+    margin-top:2vh;
+    margin-bottom:1vh; !important
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#fourth {
+    margin-right: 8vw;  !important
+}
+#first {
+    margin-left: 12vw;
+}
+
+
+
+.container {
+    display: flex;
+ 
+    
+}
+
+.upper-divs {
+    
+    
+}
+#left-div {
+   width:50vw;
+  background-color: #293B52;
+    
+    height:100vh;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.contain-head {
+    margin-left: 8vw;
+    margin-top: 12vh;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items:space-around;
+    /*color: #f8d16c;
+    font-size: 5vw;
+    margin-top: 25vh;
+    font-family: 'Playfair Display', serif;
+   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 50%, transparent 50%, transparent 100%);*/
+}
+.head{
+    
+color:rgb(248,209,108);
+
+margin-left:1vh;
+margin-top:5vh;
+margin-bottom: 1px;
+font-size: 10vh;
+
+
+    font-family: 'Playfair Display';
+    line-height: 1.3; 
+
+
+}
+.upper-shade {
+  /*  background-color: rgba(190, 190, 196, 0.5); */
+    margin:0;
+    margin-bottom:45px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 50%, transparent 50%, transparent 100%);
+    
+}
+.lower-shade {
+   /* background-color: rgba(190, 190, 196, 0.5); !important */
+    margin:0;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 65%, rgba(255, 255, 255, 0.2) 50%, transparent 50%, transparent 100%);
+}
+
+.left-up-text {
+    color:white;
+    font-size:3.5vh;
+    margin-top:0px;
+    position: relative;
+    top:-11vh;
+}
+
+#right-div {
+    width:50vw;
+height:100vh;
+    background-color: rgb(248,209,108);
+    border: black;
+    border-width: 10px;
+
+}
+
+#computer {
+    width:30vw;
+    margin-top:17%;
+    margin-left:18.5%;
+    margin-right:10vw; !important
+}
+
+.projects {
+    background-color: white;
+    height: 50vh;
+}
+
+.project-heading {
+    border-bottom: 5px solid rgb(248,209,108);
+    width: 10vw;
+    position:relative;
+    left:44vw;
+    font-size: 40px;
+    padding:4px;
+    
+}
+
+.project-image {
+    display:flex;
+    justify-content: center;
+}
+#project-image {
+    width: 300px; !important
+    height: auto;
+    margin-top: 20px;
+}
+.four-projects {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin-left:8vw;
+    margin-right: 8vw;
+    margin-bottom: 0;
+}
+
+.four-projects-heading {
+    font-size:20px;
+    font-weight: bold;
+
+}
+
+.anurag {
+   position: relative;
+}
+.big-number {
+    position: absolute;
+    transform: translate(0%, -50%);
+    left: 0;
+    
+    height: 100%;
+    color: rgba(248, 209, 108, 0.5);
+    font-size: 200px;
+    font-family: 'TypoPRO Bebas Neue';
+    user-select: none;
+}
+#one {
+ 
+ text-align: right; 
+  width:250px;
+  margin:10px;
+}
+#two {
+ 
+    text-align: right;  
+    width:250px;
+    margin:10px;
+   }
+#three {
+ 
+    text-align: right;
+    width:250px;
+    margin:10px;
+   }
+#four {
+ 
+    text-align: right; 
+    width:250px;
+    margin:10px;
+}
+
+.view-more {
+    width:11vw;
+    position:relative;
+    left:44vw;
+    margin-bottom:1vh;
+}
+
+sfgbutton {
+    width:11vw;
+    height: 8vh;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    font-size:20px;
+}
+
+button {
+    background-color: transparent;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-family: 'TypoPRO Bebas Neue';
+    font-size: 18px;
+    border: 2px solid #263146;
+    color: #263146;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+}
+.blog {
+    
+text-align:center;
+background-color:#ebebeb; 
+ 
+}
+
+.for-test {
+    display:flex;  !important
+ justify-content: center;
+ align-items: center;
+ background-color: #ebebeb; ; 
+}
+.heading {
+    font-size: 32px;
+    font-family: 'Playfair Display';
+    border-bottom: 0.2em #f8d16c solid;
+   display:inline-block;
+    padding-left: 0.8em;
+    color: #3b3736;
+    padding-right: 0.8em;
+    padding-bottom: 0.3em;
+    margin: auto;
+    margin-top:18px;
+    
+   
+    
+}
+
+.for-flex {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ebebeb; 
+}
+.right-blog{
+    padding:30px;
+    
+}
+
+#blog-image {
+    width: 300px;
+    height: auto;
+    font-size: 1rem
+}
+.left-blog{
+    
+    padding:30px;
+    font-size: 18px;
+    padding-top: 100px;
+}
+
+.contain-read {
+    display: flex;
+    justify-content: center;
+    background-color: #ebebeb;
+}
+.read-button {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-family: 'TypoPRO Bebas Neue';
+    font-size: 1.5rem;
+    border: 2px solid #263146;
+    color: #263146;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    margin:auto;
+    margin-bottom:15px;
+   
+}
+.read-button :hover{
+    background-color: blue;
+}
+
+
+
+
+
+
+/*FOOTER : */
+
+.footer-mid {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    display:flex;
+  
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+    color:white;
+
+}
+
+.footer {
+    background-color: #293B52;
+}
+
+.right-footer {
+margin-top:30px;
+color:white;
+width:50%;
+}
+
+.left-footer {
+    color:white;
+    margin-top:30px;
+}
+
+#about {
+    font-size: 1.5rem;
+    line-height: 2;
+    font-family: "TypoPRO Bebas Neue";
+    color: #fff;
+    padding-top: 28px;
+}
+
+
+.footer-end {
+    background-color: #040f1b ; !important
+    
+    margin-top:16px;
+}
+.null {
+    margin-left:8vw;
+    color:white;
+    margin-top:16px;
+    padding:4px;
+    background-color:#040f1b;
+}
+
+
+/*MEDIA QUERIES FROM HERE*/
+
+
+
+@media all and (max-width:1000px){
+    .four-projects {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        margin-left:8vw;
+        margin-right: 8vw;
+        margin-bottom: 0;
+    }
+    
+    .four-projects-heading {
+        font-size:20px;
+        font-weight: bold;
+    
+    }
+    
+    .anurag {
+       position: relative;
+    }
+    .big-number {
+        position: absolute;
+        transform: translate(0%, -50%);
+        left: 0;
+        
+        height: 100%;
+        color: rgba(248, 209, 108, 0.5);
+        font-size: 150px;
+        font-family: 'TypoPRO Bebas Neue';
+        user-select: none;
+    }
+    #one {
+     
+     text-align: right; 
+      width:30vw;
+      margin:10px;
+	  margin-top:0px;
+      margin-bottom:90px;
+    }
+    #two {
+     
+        text-align: right;  
+        width:30vw;
+        margin:10px;
+		margin-top:0px;
+        margin-bottom:90px;
+       }
+    #three {
+     
+        text-align: right;
+        width:30vw;
+        margin:10px;
+        margin-bottom:50px;
+       }
+    #four {
+     
+        text-align: right; 
+        width:30vw;
+        margin:10px;
+        margin-bottom:50px;
+    }
+    
+}
+
+@media all and (max-width:680px){
+/* UPPER DIVS HERE*/
+
+.container {
+    display: flex;
+ 
+    
+}
+
+.upper-divs {
+    
+    
+}
+#left-div {
+   width:100vw;
+  background-color: #293B52;
+    
+    height:100vh;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+#right-div {
+    display:none;
+}
+
+.contain-head {
+    margin-left: 8vw;
+    margin-top: 12vh;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items:space-around;
+    
+}
+.head{
+    
+color:rgb(248,209,108);
+
+margin-left:1vh;
+margin-top:5vh;
+margin-bottom: 1px;
+font-size: 10vh;
+
+
+    font-family: 'Playfair Display';
+    line-height: 1.3; 
+
+
+}
+.upper-shade {
+  /*  background-color: rgba(190, 190, 196, 0.5); */
+    margin:0;
+    margin-bottom:45px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 50%, transparent 50%, transparent 100%);
+    
+}
+.lower-shade {
+   /* background-color: rgba(190, 190, 196, 0.5); !important */
+    margin:0;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 65%, rgba(255, 255, 255, 0.2) 50%, transparent 50%, transparent 100%);
+}
+
+.left-up-text {
+    color:white;
+    font-size:3.5vh;
+    margin-top:0px;
+    position: relative;
+    top:-11vh;
+}
+
+#right-div {
+    width:50vw;
+height:100vh;
+    background-color: rgb(248,209,108);
+    border: black;
+    border-width: 10px;
+
+}
+
+#computer {
+    width:30vw;
+    margin-top:17%;
+    margin-left:18.5%;
+    margin-right:10vw; !important
+}
+
+/*PROJECTS FROM HERE */
+
+    .four-projects {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        margin-left:8vw;
+        margin-right: 8vw;
+        margin-bottom: 0;
+    }
+    
+    .four-projects-heading {
+        font-size:20px;
+        font-weight: bold;
+    
+    }
+    
+    .anurag {
+       position: relative;
+    }
+    .big-number {
+        position: absolute;
+        transform: translate(0%, -50%);
+        left: 0;
+        
+        height: 100%;
+        color: rgba(248, 209, 108, 0.5);
+        font-size: 150px;
+        font-family: 'TypoPRO Bebas Neue';
+        user-select: none;
+    }
+    #one {
+     
+     text-align: right; 
+      width:80vw;
+      margin:10px;
+      margin-bottom:90px;!important
+    }
+    #two {
+     
+        text-align: right;  
+        width:80vw;
+        margin:10px;
+        margin-bottom:90px;
+       }
+    #three {
+     
+        text-align: right;
+        width:80vw;
+        margin:10px;
+        margin-bottom:50px;
+       }
+    #four {
+     
+        text-align: right; 
+        width:80vw;
+        margin:10px;
+        margin-bottom:50px;
+    }
+
+    /* footer from here*/
+    .footer-mid {
+        margin-left: 8vw;
+        margin-right: 8vw;
+        display:flex;
+      
+        justify-content: space-between;
+        flex-wrap: wrap;
+       
+        color:white;
+    
+    }
+    
+    .footer {
+        background-color: #293B52;
+    }
+    
+    .right-footer {
+    margin-top:30px;
+    color:white;
+    width:100%;
+    }
+    
+    .left-footer {
+        color:white;
+        margin-top:30px;
+    }
+    
+    #about {
+        font-size: 1.5rem;
+        line-height: 2;
+        font-family: "TypoPRO Bebas Neue";
+        color: #fff;
+        padding-top: 28px;
+    }
+    
+    
+    .footer-end {
+        background-color: #040f1b ; !important
+        
+        margin-top:16px;
+    }
+    .null {
+        margin-left:8vw;
+        color:white;
+        margin-top:16px;
+        padding:4px;
+        background-color:#040f1b;
+    }
+    
+}
