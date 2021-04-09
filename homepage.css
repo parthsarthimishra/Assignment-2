@@ -135,17 +135,25 @@ height:100vh;
 .projects {
     background-color: white;
     height: 50vh;
+   
 }
 
+.project-heading-container {
+    display: flex;
+    justify-content: center;
+}
 .project-heading {
     border-bottom: 5px solid rgb(248,209,108);
-    width: 10vw;
+    
+    width: 140px;
     position:relative;
-    left:44vw;
+   text-align:center;
     font-size: 40px;
     padding:4px;
     
 }
+
+
 
 .project-image {
     display:flex;
@@ -215,6 +223,7 @@ height:100vh;
     position:relative;
     left:44vw;
     margin-bottom:1vh;
+    line-break: none;
 }
 
 sfgbutton {
