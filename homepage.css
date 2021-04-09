@@ -1,3 +1,6 @@
+@import {url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');}
+
+
 .navbar {
 position:sticky;
 top:0px;
@@ -445,7 +448,7 @@ font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
     .projects {
         background-color: white;
         height: 50vh;
-        margin-bottom:100px;
+        margin-bottom:1vh;
        
     }
     .four-projects {
@@ -510,7 +513,7 @@ font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
     
 }
 
-@media all and (max-width:680px){
+@media all and (max-width:790px){
     
     
         .hamburger {
@@ -602,10 +605,10 @@ font-size: 10vh;
 .left-up-text {
     color:white;
     font-size:3.5vh;
-    margin-top:0px;
+    margin-top:10px;
     position: relative;
     top:-11vh;
-    padding-top: 11px;
+    padding-top: 11vh;
 }
 
 #right-div {
@@ -625,7 +628,9 @@ height:100vh;
 }
 
 /*PROJECTS FROM HERE */
-
+    .projects {
+        height: 50vh;
+    }
     .four-projects {
         display:flex;
         flex-wrap:wrap;
