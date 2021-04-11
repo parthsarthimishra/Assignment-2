@@ -1,13 +1,14 @@
-@import {url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 .navbar {
 position:sticky;
 top:0px;
-height: 10vh;
+height: 4em;
 background-color: burlywood;
 display:flex;
 z-index: 1000;
+ font-family: 'Bebas Neue' , cursive;
 }
 .hamburger{
     display: none;
@@ -16,8 +17,8 @@ z-index: 1000;
     margin-top: 1vh; !important
 }
 #img-logo {
-    height:6vh;
-    width:7vh;
+    height:2.5em;
+    width:3.5em;
     margin-left:8vw;
     margin-top: 1vh; !important
 }
@@ -27,20 +28,27 @@ z-index: 1000;
     width:50vw;   
     justify-content: flex-end;  
     background-color: white;
+	 font-family: 'Bebas Neue' , cursive;
+	 display:flex;
+	 align-items:center;
     
 }
 .left-nav{
     width:50vw; !important
     left:0px;
     background-color: white;
+	 font-family: 'Bebas Neue' , cursive;
+	 display:flex;
+	 align-items:center;
 }
 
 .nav-elements {
     margin:1vw;
     text-decoration: none;
-    margin-top:3vh;
-    margin-bottom:1vh; !important
-    font-family: "TypoPRO Bebas Neue";
+    
+    font-family: 'Bebas Neue' , cursive;
+	font-size:1.4em;
+	font-style:normal;
 }
 .nav-elements :hover {
     color:rgba(0,0,0,0.5);
@@ -99,7 +107,7 @@ color:rgb(248,209,108);
 margin-left:1vh;
 margin-top:5vh;
 margin-bottom: 1px;
-font-size: 10vh;
+font-size: 5em;
 
 
     font-family: 'Playfair Display';
@@ -122,10 +130,10 @@ font-size: 10vh;
 
 .left-up-text {
     color:white;
-    font-size:3.5vh;
+    font-size:1.5em;
     margin-top:0px;
     position: relative;
-    top:-11vh;
+    top:-3em;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
 
@@ -135,11 +143,12 @@ height:100vh;
     background-color: rgb(248,209,108);
     border: black;
     border-width: 10px;
+	
 
 }
 
 #computer {
-    width:30vw;
+    width:25em;
     margin-top:17%;
     margin-left:18.5%;
     margin-right:10vw; !important
@@ -265,7 +274,7 @@ height:100vh;
     margin-bottom:2vh;
     line-break: none;
     font-family: 'TypoPRO Bebas Neue';
-    margin-top: 22px;
+    margin-top: 30em;
    
 }
 
@@ -438,25 +447,37 @@ font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 .yellow {
     color: yellow;
 }
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 /*MEDIA QUERIES FROM HERE*/
 
 
-
 @media all and (max-width:1000px){
-
+	.head {
+		font-size:3em;
+	}
+#computer {
+	width:20em;
+}
     .projects {
         background-color: white;
         height: 50vh;
-        margin-bottom:1vh;
+        margin-bottom:8em;
        
     }
     .four-projects {
         display:flex;
         flex-wrap:wrap;
         justify-content: space-between;
-        margin-left:8vw;
-        margin-right: 8vw;
+        margin-left:8em;
+        margin-right: 8em;
         margin-bottom: 0;
     }
     
