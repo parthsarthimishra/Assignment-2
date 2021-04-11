@@ -89,7 +89,7 @@ a {
 
 .contain-head {
     margin-left: 8vw;
-    margin-top: 12vh;
+    margin-top: 5em;
     display:flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -105,7 +105,7 @@ a {
 color:rgb(248,209,108);
 
 margin-left:1vh;
-margin-top:5vh;
+margin-top:0.5em;
 margin-bottom: 1px;
 font-size: 5em;
 
@@ -156,7 +156,7 @@ height:100vh;
 
 .projects {
     background-color: white;
-    height: 50vh;
+    height: 20em;
     margin-bottom:50px;
    
 }
