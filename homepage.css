@@ -277,7 +277,9 @@ height:100vh;
     margin-top: 30em;
    
 }
-
+.view-more :hover{
+    background-color: rgb(248,209,108);
+}
 
 
 button {
@@ -292,7 +294,8 @@ button {
     transition: background-color 0.3s;
     cursor: pointer;
 }
-}
+
+
 .blog {
     
 text-align:center;
@@ -352,6 +355,8 @@ background-color:#ebebeb;
     display: flex;
     justify-content: center;
     background-color: #ebebeb;
+    height: 0.5em;
+    padding-bottom: 3.5em;
 }
 .read-button {
     text-transform: uppercase;
@@ -369,7 +374,10 @@ background-color:#ebebeb;
    
 }
 .read-button :hover{
-    background-color: blue;
+    background-color: black;
+}
+.contain-read :hover{
+    background-color: rgb(248,209,108);
 }
 
 
@@ -436,6 +444,7 @@ font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
     padding:4px;
     background-color:#263146;;
 }
+
 #contact-us {
     font-size: 20px;
     font-weight: bold;
@@ -443,6 +452,9 @@ font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 .below-contact {
     font-size: 15px;
     font-weight: normal;
+}
+#white {
+    color: white;
 }
 .yellow {
     color: yellow;
