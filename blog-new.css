@@ -234,7 +234,7 @@ html,body
 
 @media all and (max-width:1200px){
     .grid-container {
-        margin-left: 6vw;
+        margin-left: 4vw;
         margin-top: 28px;
          display:flex;
         
@@ -281,7 +281,34 @@ html,body
         
     }
 }
-
+/* FOR MEDIA QUERY OF 790*/
+@media all and (max-width:790px){
+    .hamburger {
+        background-color: white;
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        width:50vw;
+        font-size: 33px;
+       text-align: right;
+       padding-right: 8vw;
+      height:0.5em;
+       
+    }
+    .navbar {
+        height:4em;
+    }
+    .nav-elements{
+        display: none;
+        
+        
+    }
+    .navbar {
+        background-color: white;
+        width:100vw;
+    }}
 /*FOR MEDIA QUERY OF 700 */
 
 @media all and (max-width:700px){

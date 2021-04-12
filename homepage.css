@@ -480,8 +480,8 @@ html,body
 }
     .projects {
         background-color: white;
-        height: 50vh;
-        margin-bottom:8em;
+        height: 22em;
+        margin-bottom:1em;
        
     }
     .four-projects {
@@ -662,7 +662,7 @@ height:100vh;
 
 /*PROJECTS FROM HERE */
     .projects {
-        height: 50vh;
+        height: 22em;
     }
     .four-projects {
         display:flex;
