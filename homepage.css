@@ -471,7 +471,7 @@ html,body
 /*MEDIA QUERIES FROM HERE*/
 
 
-@media all and (max-width:1000px){
+@media all and (max-width:1298px){
 	.head {
 		font-size:3em;
 	}

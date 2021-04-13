@@ -145,7 +145,7 @@
 }
 
 .name-blog {
-    border-bottom:1px solid grey;
+    border-bottom: 1px solid rgba(0,0,0,.05)!important;
     font-weight: 700;
     font-size: 1.28571429em;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
@@ -256,7 +256,7 @@ html,body
       }
 
       .name-blog {
-        border-bottom:1px solid grey;
+        border-bottom: 1px solid rgba(0,0,0,.05)!important;
         font-weight: 700;
         font-size: 1.28571429em;
         font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
